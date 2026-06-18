@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7e6d5; /* Tom rústico/floresta confortável */
+    color: #4a2e1b;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #8b263e; /* Vermelho Chapeuzinho */
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 550px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(74, 46, 27, 0.15);
+    border: 2px solid #e6ccb2;
+}
+
+h3 {
+    color: #b5446e;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 2px solid #ddb892;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #b5446e;
+}
+
+button {
+    background-color: #8b263e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #a33851;
+}
+
+.exemplos {
+    background-color: #fcf8f2;
+    border-left: 4px solid #ddb892;
+    padding: 12px 15px;
+    margin-top: 25px;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+}
+
+.exemplos p {
+    margin: 6px 0;
+}
+
+.codigo {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ededed;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #c7254e;
+    font-weight: bold;
+}
+
+.resultado {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    border: 1px dashed #ccc;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Classes injetadas dinamicamente pelo script do HTML */
+.sucesso {
+    color: #1b4332;
+    background-color: #d8f3dc;
+    border: 1px solid #b7e4c7;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.erro {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+}
